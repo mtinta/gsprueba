@@ -9,8 +9,10 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "web-build": "expo export --platform web"
+    "web-build": "expo export --platform web",
+    "build": "expo export --platform web"
   },
+
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
     "@react-navigation/bottom-tabs": "^7.3.10",
@@ -49,5 +51,7 @@
     "eslint-config-expo": "~9.2.0",
     "typescript": "~5.8.3"
   },
+  
   "private": true
+  
 }
